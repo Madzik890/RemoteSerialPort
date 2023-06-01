@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRemoteSerialPort.a  CMakeFiles/RemoteSerialPort.dir/src/domain/communication/infrastructure/serialport.cpp.o
+/usr/bin/ranlib libRemoteSerialPort.a

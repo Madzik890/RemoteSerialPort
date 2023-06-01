@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../library/src/domain/communication/core/adapter/iserialport.hpp
+domain/communication/core/models/serialportmode.hpp
+../library/src/domain/communication/core/adapter/domain/communication/core/models/serialportmode.hpp
+domain/communication/core/models/serialportdata.hpp
+../library/src/domain/communication/core/adapter/domain/communication/core/models/serialportdata.hpp
+functional
+-
+
+../library/src/domain/communication/core/models/serialportdata.hpp
+memory
+-
+
+../library/src/domain/communication/core/models/serialportmode.hpp
+string_view
+-
+
+/home/msucharski/Documents/RemoteSerialPort/library/src/domain/communication/infrastructure/serialport.cpp
+serialport.hpp
+/home/msucharski/Documents/RemoteSerialPort/library/src/domain/communication/infrastructure/serialport.hpp
+
+/home/msucharski/Documents/RemoteSerialPort/library/src/domain/communication/infrastructure/serialport.hpp
+domain/communication/core/adapter/iserialport.hpp
+/home/msucharski/Documents/RemoteSerialPort/library/src/domain/communication/infrastructure/domain/communication/core/adapter/iserialport.hpp
+
