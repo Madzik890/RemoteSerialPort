@@ -1,5 +1,7 @@
 build/
 build_cmake/
+build/library
+build/library/CMakeFiles
 #.vscode/
 bin/
 releases/

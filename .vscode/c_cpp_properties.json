@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/libs/cpp-httplib"
+                "${workspaceFolder}/libs/cpp-httplib",
+                "${workspaceFolder}/library/src"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

@@ -1,8 +1,0 @@
-/home/msucharski/Documents/RemoteSerialPort/build/CMakeFiles/rebuild_cache.dir
-/home/msucharski/Documents/RemoteSerialPort/build/CMakeFiles/edit_cache.dir
-/home/msucharski/Documents/RemoteSerialPort/build/library/CMakeFiles/rebuild_cache.dir
-/home/msucharski/Documents/RemoteSerialPort/build/library/CMakeFiles/edit_cache.dir
-/home/msucharski/Documents/RemoteSerialPort/build/library/CMakeFiles/RemoteSerialPort.dir
-/home/msucharski/Documents/RemoteSerialPort/build/example/CMakeFiles/rebuild_cache.dir
-/home/msucharski/Documents/RemoteSerialPort/build/example/CMakeFiles/edit_cache.dir
-/home/msucharski/Documents/RemoteSerialPort/build/example/CMakeFiles/RemoteSerialPortExamples.dir

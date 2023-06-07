@@ -23,7 +23,7 @@ namespace Domain
                     public:
                         virtual void open(Domain::Communication::Core::Models::SerialPortMode &&mode) = 0;
                         virtual void send(const Domain::Communication::Core::Models::SerialPortData &data) = 0;                        
-                        virtual Domain::Communication::Core::Models::SerialPortMode receive() = 0;
+                        virtual Domain::Communication::Core::Models::SerialPortData receive() = 0;
                         virtual void close() noexcept = 0;          
 
                     public:
@@ -35,13 +35,19 @@ namespace Domain
                     public:
                         inline void setSendTimeout(const int timeout) { _sendTimeout = timeout; }
                         inline void setRecvTimeout(const int timeout) { _recvTimeout = timeout; }
+                        inline void setReadBuffer(const int bufferSize) { _readBuffer = bufferSize; }
+
                     public:
                         inline int getSendTimeout() const { return _sendTimeout; }
                         inline int getRecvTimeout() const { return _recvTimeout; }
+                        inline int getReadBuffer() const { return _readBuffer; }
 
                     private:              
                         int _sendTimeout = 0;
                         int _recvTimeout = 0;
+
+                    private:
+                        int _readBuffer = 256;
                 };
             }
         }
