@@ -14,11 +14,11 @@ namespace Domain
                 struct SerialPortData final
                 {
                     public:
-                        std::unique_ptr<unsigned char> data {nullptr};
+                        std::unique_ptr<char[]> data {nullptr};
                         std::size_t dataLength {0};
 
                     public:
-                        inline std::unique_ptr<unsigned char> &operator*()
+                        inline std::unique_ptr<char[]> &operator*()
                         {
                             return data;
                         }
